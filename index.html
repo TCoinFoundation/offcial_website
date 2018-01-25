@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title>TCoin</title>
+    <link rel="stylesheet" href="/assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/stylesheets/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/stylesheets/flexslider.css">
+    <link rel="stylesheet" href="/assets/stylesheets/aos.css">
+    <link rel="stylesheet" href="/assets/stylesheets/slick.css">
+    <link rel="stylesheet" href="/assets/stylesheets/video.css">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+    <link rel="icon" href="/assets/images/favicon.ico">
+  </head>
+  <body data-spy="scroll" data-offset="80" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <nav class="navbar navbar-toggleable-sm fixed-top navbar-light bg-faded site-navigation navbar-fixed">
+    <div class="container">
+      <a class="navbar-brand" href="javascript:;"><img src="/assets/images/tcoin_logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="icon-menu"></i>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home" data-name='bannerLabelHome'>HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#development_Route" data-name="bannerLabelDevelopmentRoute">ROAD MAP</a></li>
+          <li class="nav-item"><a class="nav-link" href="#our_Service" data-name="bannerLabelHighlight">CORE TEAM</a></li>
+          <li class="nav-item"><a class="nav-link" href="#travel_Pictures" data-name="bannerLabelMember">MEMBER</a></li>
+          <li class="nav-item"><a class="nav-link" href="#agency" data-name="bannerLabelAgency">AGENCY</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact_Us" data-name="bannerLabelContactUs">CONTACT US</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:;" data-name="bannerLabelLanguage" id="udLanguage">中文</a>
+            <div class="dropdown mouseoutLanguage">
+              <button type="button" class="btn dropdown-toggle btnLanguage" data-toggle="dropdown" data-name="bannerLabelLanguage">
+              <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu selectLanguage" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation">
+                  <a role="menuitem" class="menuLanguage" tabindex="-1" href="javascript:;" data-language="zh_CN">中文</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" class="menuLanguage" tabindex="-1" href="javascript:;" data-language="zh_TW">繁体中文</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" class="menuLanguage" tabindex="-1" href="javascript:;" data-language="en">English</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section id="home" class="home_parallax" >
+      <div class="container home_parallax_container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+          <div class="hero-text">
+            <h1 id="string_username" data-name='bannerTitle'>TCoin</h1>
+            <h5 data-name="bannerTitleDescribe">Decentralized Global Travel Platform</h5>
+            <p data-name="bannerTitleAddress">Based on Blockchain Tech | AI | Data Science</p>
+            <a href="http://tencent-face-oss.oss-cn-beijing.aliyuncs.com/tcoin_wp_cn.pdf" class="btn btn-default btn-home-bg" data-name="bannerBtn" id="whitePaper">White Paper</a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div id="homeSliderBack" class="home-slider-back">
+        <img src='/assets/images/header1.jpg' class="home-slider-lists">
+        <img src='/assets/images/header2.jpg' class="home-slider-lists">
+      </div>
+      <canvas id="particle"></canvas>
+    </section>
+
+    <section id="about_US" class="our_services" tabindex="-1" style="display: none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="section-title our-service-section-title">
+              <h2 data-name="highlightTitle">HighLights</h2>
+              <video class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" width="640" height="264" poster="" data-setup="{}">
+                <source src="http://oh3804si5.bkt.clouddn.com/2.mp4" type='video/mp4' />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="development_Route" class="development_route section-padding" tabindex="-1">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center development_route">
+            <h2 data-name="developmentRoute">ROAD MAP</h2>
+            <img class="developmentRouteImg" src="/assets/images/developmentRouteWeb.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our_Service" data-stellar-background-ratio="0.3" class="why_choose section-padding" style="background-image: url(/assets/images/why_choose_us.jpg); background-size: cover; background-position: 50% 0px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 aos-init aos-animate" data-aos="fade-up">
+          <div class="section-title text-center">
+            <h2 class="section-title-white" data-name="highlightSubtitle">HighLights</h2>
+              <span class="section-title-white"></span>
+              <p class="section-title-white" style="height: 46px;"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center" style="margin-top: 35px;">
+          <div class="col-sm-4 col-xs-12 aos-init aos-animate" data-aos="fade-up">
+            <div class="single-choose">
+              <i class="fa-star1"></i>
+              <h4 data-name="highlight1">Cooperation Party</h4>
+              <p data-name="highlight1Describe">A top accommodation platform of sharing economy which covers 80 countries,800+ cities,has 3.5 million users ,top global overseas short rental brand</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-12 aos-init aos-animate" data-aos="fade-up">
+            <div class="single-choose">
+              <i class="fa-star2"></i>
+              <h4 data-name="highlight2">Biggest Asia Market</h4>
+              <p data-name="highlight2Describe">Transaction parties get TCoin rewards,enhance service quality,build a sound credit system for both parties,share self-driving tour route,real experience comments can’t be changed</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-xs-12 aos-init aos-animate" data-aos="fade-up">
+            <div class="single-choose">
+              <i class="fa-star3"></i>
+              <h4 data-name="highlight3">Professional Work</h4>
+              <p data-name="highlight3Describe">Third party commission saved,without handling fee and intermediary process</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="travel_Pictures" class="top_deals section-padding col-sm-12 col-xs-12 no-padding aos-init aos-animate" tabindex="-1">
+      <div class="row">
+        <div class="col-md-12 aos-init aos-animate" data-aos="fade-up">
+          <div class="section-title text-center">
+            <h2 data-name="memberTitle">Core Team</h2>
+            <span></span>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="travel-pictures aos-animate" data-aos="fade-up">
+        <div class="travel-pic">
+          <img src="/assets/images/headPortrait01.jpg"/>
+          <h5 data-name="memberPersonnel1">Nathan Mair</h5>
+          <span data-name="memberPersonnelPosition1">COO</span>
+          <p data-name="memberPersonnelPositionDescribe11">PHD of University of Michigan</p>
+          <p data-name="memberPersonnelPositionDescribe12">Has great insight on blockchain & smart contract</p>
+          <p data-name="memberPersonnelPositionDescribe13">Drenched in Travel field for decades</p>
+          <a href="https://www.linkedin.com/in/nathan-mair-12ba5649/" class="linkedin-icon"></a>
+        </div>
+        <div class="travel-pic">
+          <img src="/assets/images/headPortrait02.jpg"/>
+          <h5 data-name="memberPersonnel2">Thomas JC</h5>
+          <span data-name="memberPersonnelPosition2">Founder</span>
+          <p data-name="memberPersonnelPositionDescribe21">Graduate of Nanyang Technological University</p>
+          <p data-name="memberPersonnelPositionDescribe22">Former Chief Data Scientist at Belvedor</p>
+          <p data-name="memberPersonnelPositionDescribe23">Singapore Infocomm Technology Federation Gold Award 2012 Winner</p>
+          <a href="https://www.linkedin.com/in/tmasjc/" class="linkedin-icon"></a>
+        </div>
+        <div class="travel-pic">
+          <img src="/assets/images/headPortrait03.jpg"/>
+          <h5 data-name="memberPersonnel3">Nathaniel Zhang</h5>
+          <span data-name="memberPersonnelPosition3">Adivsor</span>
+          <p data-name="memberPersonnelPositionDescribe31">Former Chief Strategy Officer</p>
+          <p data-name="memberPersonnelPositionDescribe32">Ross School of Business at University of Michigan </p>
+          <p data-name="memberPersonnelPositionDescribe33">International Strategy Director at Mobike</p>
+          <a href="https://www.linkedin.com/in/nat-lingpeng-zhang-6aa35115/" class="linkedin-icon"></a>
+        </div>
+      </div>
+    </section>
+
+    <div data-stellar-background-ratio="0.3" id="agency" class="partner-logo" style="background-image: url(/assets/images/header.jpg); background-size: cover; background-position: 50% 0px;">
+      <div class="container">
+        <h1 style="text-align: center;color: #fff;margin-bottom: 30px;" data-name="mechanismTitle">AGENCY</h1>
+        <div class="row">
+          <div class="col-md-12 aos-init" data-aos="fade-up">
+            <div class="partner owl-carousel owl-theme" style="opacity: 1; display: block;">
+              <div class="owl-wrapper-outer">
+                <!-- <div id="partner" class="owl-wrapper" style="display: block;"> -->
+                <img src="/assets/images/cooperative_partner01.png"/>
+                <img src="/assets/images/cooperative_partner02.png"/>
+                <img src="/assets/images/cooperative_partner03.png"/>
+                <!-- </div> -->
+              </div>
+            <div class="owl-controls clickable" style="display: block;"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact_Us" class="contact_area">
+      <div class="container-fluid">
+        <div class="section-title text-center" data-aos="fade-up" style="margin: 0 auto;">
+          <h2 class="feature-box-graphic-title" data-name="contactUsTitle">Contact Us</h2>
+          <p class="feature-box-graphic-email">
+            <img src="./assets/images/email.png">
+            <span data-name="contactUsEmail">travelchainone@hotmail.com</span>
+          </p>
+          <p class="feature-box-graphic-telegram">
+            <img src="./assets/images/telegram.png">
+            <span>Telegram: Travelchain Official</span>
+          </p>
+          <ul class="feature-box-graphic center-block">
+            <li>
+              <a href="https://www.instagram.com/travelchain_official/">
+                <img src="./assets/images/contactus1.png"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Travelchain_Official-176777916268362/?modal=admin_todo_tour">
+                <img src="./assets/images/contactus2.png"/>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <img src="./assets/images/contactus3.png"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/_TravelChain">
+                <img src="./assets/images/contactus4.png"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/TCoinFoundation">
+                <img src="./assets/images/contactus5.png"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="/assets/javascript/jquery-1.12.4.min.js"></script>
+    <script src="/assets/javascript/jquery-i18n-properties.js"></script>
+    <script src="/assets/javascript/tether.min.js"></script>
+    <script src="/assets/javascript/bootstrap.min.js"></script>
+    <script src="/assets/javascript/modernizr-2.8.3.min.js"></script>
+    <script src="/assets/javascript/jquery.nav.js"></script>
+    <script src="/assets/javascript/smooth-scroll.js"></script>
+    <script src="/assets/javascript/jquery.stellar.min.js"></script>
+    <script src="/assets/javascript/jquery.inview.min.js"></script>
+    <script src="/assets/javascript/jquery.flexslider-min.js"></script>
+    <script src="/assets/javascript/scrolltopcontrol.js"></script>
+    <script src="/assets/javascript/form-contact.js"></script>
+    <script src="/assets/javascript/aos.js"></script>
+    <script src="/assets/javascript/slick.min.js"></script>
+    <script src="/assets/javascript/video.min.js"></script>
+    <script src="/assets/javascript/Martrix.js"></script>
+    <script src="/assets/javascript/scripts.js"></script>
+  </body>
+</html>
