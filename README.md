@@ -1,7 +1,7 @@
-# offcail_website
+# Official Website
 [![Build Status](https://travis-ci.org/mbrossard/threadpool.svg?branch=master)](http://travelchain.one)
 
-TCoin Offcial Website
+TCoin Official Website
 
 > This is TCoin Offcial Website source code
 
